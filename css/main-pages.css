@@ -1,0 +1,286 @@
+
+li{
+	list-style:none;
+}
+
+.col-1-10{
+	width:10%;
+}
+.col-2-10{
+	width:20%;
+}
+.col-3-10{
+	width:30%;
+}
+.col-4-10{
+	width:40%;
+}
+.col-5-10{
+	width:40%;
+}
+.col-6-10{
+	width:60%;
+}
+.col-7-10{
+	width:70%;
+}
+.col-8-10{
+	width:80%;
+}
+.col-9-10{
+	width:90%;
+}
+
+/***********/
+
+
+.section{
+max-width: 1200px;
+width: 100%;
+min-width: 980px;
+margin: 25px auto 0px;
+}
+.homebanner {
+    
+    width: 900px;
+    height: 356px;
+    overflow: hidden;
+    position: relative;
+    background: #F0F0F0 none repeat scroll 0% 0%;
+    margin: auto;
+    
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+.mycarousel{
+width: 100%;
+}
+.mycarousel .my-carousel-control{
+width: 10%;
+}
+.mycarousel  .carousel-control.left{
+background-image: none;
+}
+.mycarousel  .carousel-control.right{
+background-image: none;
+}
+
+.mycarousel  .glyphicon-chevron-right, .mycarousel  .glyphicon-chevron-left{
+background: rgba(0, 0, 0, 0.3) none repeat scroll 0% 0%;  
+width: 58px;
+height: 50px;
+border-radius: 6px;
+padding: 8px 0px 0px;
+margin: 0px;
+ } 
+.mycarousel .carousel-inner{
+
+}
+.mycarousel .carousel-inner img{
+ width: 100%;
+}
+.homeproduct li label {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    padding: 5px 0px;
+    width: 125px;
+    font-size: 12px;
+    color: #999;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.image_off, #home:hover .image_on{
+   display:none
+}
+.image_on, #home:hover .image_off{
+   display:block
+}
+ .homeproduct {
+    display: block;
+    overflow: hidden;
+    margin: 15px auto 0px;
+}
+.homeproduct li {
+    float: left;
+    position: relative;
+    width: 32%;
+    height: 250px;
+    margin-right: 1%;
+    margin-bottom: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    /****/
+    background: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.homeproduct li a {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #FFF none repeat scroll 0% 0%;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.homeproduct li img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background: transparent url("https://cdn.tgdd.vn/v2015/Content/desktop/images/loading.svg") no-repeat scroll center center;
+    min-height: 130px;
+}
+.homeproduct li .bginfo {
+    display: block;
+    overflow: hidden;
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 25px 20px 0px;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 16px;
+    position: absolute;
+}
+.homeproduct li .bginfo span {
+    display: block;
+    color: #666;
+    padding: 2px 6px;
+    text-decoration: none;
+    margin: 0px 0px 0px 5px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.homeproduct li button {
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    z-index: 9990;
+    cursor: pointer;
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #288AD6;
+    border-radius: 4px;
+    padding: 6px 20px;
+    font-size: 14px;
+    color: #288AD6;
+}
+.homeproduct li button:hover{
+background: #288ad6;
+color: #fff;
+} 
+
+.homeproduct li h3, .homeproduct li strong {
+    display: block;
+    line-height: 1.3em;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 10px;
+    max-width: 270px;
+}
+.homeproduct li .bginfo {
+    
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 25px 20px 0px;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 16px;
+    position: absolute;
+    width: 100%;
+    
+}
+.homeproduct li .bginfo label {
+	float: left;
+    color: #288AD6;
+    bottom: 20px;
+    cursor: pointer;
+}
+.homeproduct li .bginfo strong {
+    position: absolute;
+    top: 26px;
+    right: 6px;
+    font-size: 16px;
+    color: #ED5564;
+}
+.moreproduct {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto 0px;
+    text-align: center;
+}
+.moreproduct a {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #288AD6;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #288AD6;
+    border-radius: 4px;
+}
+
+.moreproduct a:hover{
+background: #288ad6;
+color: #fff;
+}
+.rowfoot2{
+ background:#F60 none repeat scroll 0% 0%;
+ border:2px solid #999;
+ padding: 10px auto;
+}
+.rowfoot2 .ctn {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+} 
+  .rowfoot2 p {
+    float: left;
+    width: 465px;
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 22px;
+    /*color: #999;*/
+}
+.icontgdd-map {
+    background-position: -15px -60px;
+    width: 11px;
+    height: 16px;
+    margin: -1px 5px 0px;
+}
+.ssl {
+    float: right;
+    width: 180px;
+    text-align: center;
+} 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

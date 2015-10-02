@@ -1,0 +1,171 @@
+/* CSS Document */
+*{
+	margin :0px;
+	padding:0px;
+}
+.clr{
+	clear:both;
+}
+li{
+	list-style:none;
+}
+.font_21px{
+	font-size:21px;
+}
+.gray{
+	color:#4D3B3B;
+}
+.orange{
+	color:#FF6600;
+}
+.xam{
+	color:#666;
+}
+.green_bold{
+	font-weight: bold;
+	color: #444;
+	font-size: 14px;
+}
+.border_right{
+	border-right:1px solid #C6BFBF;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	min-width: 320px;
+
+	margin: auto;
+	/*background-color:#FEFEFE;*/
+}
+body, input, button, option, textarea, label, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font: 14px/18px Helvetica,Arial,"DejaVu Sans","Liberation Sans",Freesans,sans-serif;
+    color: #333;
+    outline: medium none;
+}
+body{
+background: #E6E6E6 none repeat scroll 0% 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+width: 95%;
+min-height: 600px;
+min-width: 660px;
+max-width: 1000px;
+border-left: 2px solid black;
+border-right: 2px solid black;
+background: #FEFEFE;
+padding-bottom: 30px;
+padding-left: 15px 5%;
+padding-right: 15px 5%;
+margin-right: auto;
+margin-left: auto;
+}
+.clear-fix{
+	clear:both;
+}
+/************* SACH THEO THE LOAI *************/
+/*a:link{
+		text-decoration:none;
+				color:#05b2e9;
+			}
+			a:visited {
+				color: #05b2e9;
+			}
+			a:hover {
+				color: #3C3;
+			}
+			a:active {			
+				color: #F00;
+			}*/
+
+.left_menu_content2 a:link, .left_menu_content2 a:visited {
+	color:#666;
+	font-size:13px;
+	line-height:30px;
+}
+.left_menu_content2 a:hover{
+	text-decoration:underline;
+}
+
+
+.font_title{
+	font-size: 19px;
+	font-weight: bold;
+	color: #444444;
+}
+.bottom_20px{
+	margin-bottom:20px;
+}
+.border_bottom{
+	border-bottom:1px solid #C6BFBF;
+}
+.border_r{
+	border-right:1px solid #C6BFBF;
+}
+#no_border{
+	border:none;
+}
+.divider{
+	width:100%;
+	height:45px;
+	background:#f1f1f1;
+}
+
+.float_right{
+	float:right;
+}
+.float_left{
+	float:left;
+}
+.float_right li{
+	list-style:none;
+	float:left;
+}
+.margin_top_10{
+	margin:10px 15px 0 0;
+}
+.margin_top_10 img{
+	float:left;
+}
+.margin_top_15{
+	margin:15px 15px 0 0;
+}
+.font_bold{
+	font-weight: bold;
+}
+.media-line{
+height: 2px;
+background: darkcyan;
+margin-bottom: 10px;
+}
+
+.normal_color a:link, .normal_color a:visited, .normal_color a:hover{
+	/*color:#888888;*/
+	color: inherit;
+	text-decoration: none;
+}
+.normal_text{
+color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
