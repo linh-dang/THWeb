@@ -42,6 +42,7 @@ body, input, button, option, textarea, label, legend, h1, h2, h3, h4, h5, h6, h1
     color: #333;
     outline: medium none;
 }
+
 body{
 background: #E6E6E6 none repeat scroll 0% 0%;
 }
@@ -50,20 +51,7 @@ a {
     text-decoration: none;
 }
 
-.container{
-width: 95%;
-min-height: 600px;
-min-width: 660px;
-max-width: 1000px;
-border-left: 2px solid black;
-border-right: 2px solid black;
-background: #FEFEFE;
-padding-bottom: 30px;
-padding-left: 15px 5%;
-padding-right: 15px 5%;
-margin-right: auto;
-margin-left: auto;
-}
+
 .clear-fix{
 	clear:both;
 }
@@ -151,8 +139,37 @@ margin-bottom: 10px;
 .normal_text{
 color: black;
 }
+li{
+	list-style:none;
+}
 
-
+.col-1-10{
+	width:10%;
+}
+.col-2-10{
+	width:20%;
+}
+.col-3-10{
+	width:30%;
+}
+.col-4-10{
+	width:40%;
+}
+.col-5-10{
+	width:40%;
+}
+.col-6-10{
+	width:60%;
+}
+.col-7-10{
+	width:70%;
+}
+.col-8-10{
+	width:80%;
+}
+.col-9-10{
+	width:90%;
+}
 
 
 

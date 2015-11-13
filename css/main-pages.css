@@ -120,7 +120,7 @@ margin: 0px;
     border-radius: 3px;
 }
 .homeproduct li a {
-    display: block;
+    /*display: block;*/
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -260,8 +260,124 @@ color: #fff;
     text-align: center;
 } 
   
-  
-  
+
+.picture {
+    float: left;
+    overflow: hidden;
+    width: 33.637%;
+}
+.price_sale {
+    float: left;
+    width: 32.274%;
+    margin-top: 43px;
+}
+section {
+    max-width: 1200px;
+    width: 100%;
+    min-width: 980px;
+    /*margin: 30px auto 0px;
+    padding-top: 20px;*/
+}
+.price_sale strong {
+    display: block;
+    font-size: 22px;
+    color: #D0021B;
+    margin-bottom: 6px;
+}
+.infopromotion {
+    display: block;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #27AE60;
+    font-weight: 600;
+}
+.infocomes {
+    display: block;
+    overflow: hidden;
+}
+.infocomes li {
+    display: block;
+    overflow: hidden;
+    padding: 5px 0px 0px 20px;
+    font-size: 13px;
+    color: #545454;
+}
+.infocomes li .icondetail-check {
+    margin-left: -21px;
+}
+
+[class^="icondetail-"], [class*="icondetail-"] {
+    background-image: url("https://cdn2.tgdd.vn/v2015/Content/desktop/images/icondetail@1x.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.icondetail-check {
+    background-position: -100px -30px;
+    width: 13px;
+    height: 13px;
+    margin-right: 8px;
+}
+.infocomes li a {
+    color: #288AD6;
+}
+.infocomes li strong {
+    font-size: 13px;
+    color: #545454;
+    font-weight: bold;
+}
+.infocomes strong {
+    display: inline;
+}
+.price_sale .buynow {
+    display: block;
+    margin-top: 15px;
+    padding: 9px 0px;
+    width: 94.37%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #D97F00;
+    border-radius: 4px;
+    background: transparent -moz-linear-gradient(center top , #F89406, #F76B1C) repeat scroll 0% 0%;
+}
+.price_sale .buynow span {
+    display: block;
+    font-size: 12px;
+    color: #FFF;
+    text-transform: none;
+    font-weight: 300;
+}
+.buynow span {
+    display: block;
+    font-size: 12px;
+    color: #FFF;
+    text-transform: none;
+    font-weight: 300;
+}
+.price_sale .buycall {
+    display: block;
+    margin-top: 10px;
+    padding: 9px 0px;
+    width: 338px;
+    font-size: 13px;
+    color: #333;
+}
+  .picture img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto 10px;
+    cursor: pointer;
+}
+img {
+    border: 0px none;
+}
   
   
   

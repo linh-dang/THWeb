@@ -6,33 +6,18 @@
 <title>Vũ trụ di động</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/include.js"></script>
 <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/content.css">
-	<link rel="stylesheet" type="text/css" href="css/m-head.css">
-		<link rel="stylesheet" type="text/css" href="css/main-pages.css">
+<link rel="stylesheet" type="text/css" href="css/m-head.css">
+<link rel="stylesheet" type="text/css" href="css/main-pages.css">
 
 </head>
 <body>
 	<!--------- START HEADER----------------->
 	<div class="container">
-		<header>
-		<div class="wrap-main">
-			<form id="search-site" action="/tim-kiem" method="get" onsubmit="return submitSearchForm();"
-				autocomplete="off">
-				<input class="topinput" id="search-keyword" name="search-keyword" placeholder="Bạn tìm gì..."
-					autocomplete="off" value="" type="text">
-					<button class="btntop" type="submit">
-						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-					</button>
-			
-			</form>
-			<nav> <a class="mobile" href="dtdd"><i class="icontgdd-mobile"></i>Điện thoại</a> <a
-				href="/may-tinh-bang" class="tablet"><i class="icontgdd-tablet"></i>Tablet</a> <a href="/laptop"
-				class="laptop"><i class="icontgdd-laptop"></i>Laptop</a> <a href="/hoi-dap" class="ask"><i
-				class="icontgdd-ask"></i>Hỏi đáp</a> <a href="/khuyen-mai" class="promo"><i
-				class="icontgdd-promo"></i>Khuyến mãi</a> </nav>
 		
-		</header>
+		<div id="header"></div>
 		<!--------------***************************-------------->
 		<div class="section">
 			<aside class="homebanner">
@@ -78,22 +63,22 @@
 			<?php for($i=0; $i<3; $i++){?>
 				<li>
 					<div id="home">
-						<div class="image_on">
+						<a href="dtdd" class="image_on">
 							<img src="images/samples/oppo-r7-lite.jpg" height="180" alt="logo" />
 							<h3>OPPO R7 Lite</h3>
 							<strong class="orange">6.990.000₫</strong>
 							<div class="clr"></div>
 							<label>Hơn 1.300 lượt mua tuần qua</label>
-						</div>
-						<button href="#" type="button">Mua ngay</button>
-						<div class="image_off">
+						</a>
+						<button onclick="dtdd.php" type="button">Mua ngay</button>
+						<a href="dtdd" class="image_off">
 							<figure class="bginfo">
 							<h3>OPPO R7 Lite</h3>
 							<strong>6.990.000₫</strong>
 							<div class="border_bottom"></div>
 							<span>Màn hình: HD, 5.0 inches</span> <span>HĐH: Android 5.1 (Lollipop)</span> <span>CPU: 8
 								nhân, RAM 2GB</span> <span>Camera: 3.0MP</span> <span>Pin: 2320mAh</span> </figure>
-						</div>
+						</a>
 					</div>
 				</li>
 				<?php } ?>
@@ -102,22 +87,22 @@
 			<?php for($i=0; $i<3; $i++){?>
 				<li>
 					<div id="home">
-						<div class="image_on">
+						<a href="dtdd" class="image_on">
 							<img src="images/samples/microsoft-lumia-430-2.jpg" height="180" alt="logo" />
 							<h3>OPPO R7 Lite</h3>
 							<strong class="orange">6.990.000₫</strong>
 							<div class="clr"></div>
 							<label>Hơn 1.300 lượt mua tuần qua</label>
-						</div>
+						</a>
 						<button href="#" type="button">Mua ngay</button>
-						<div class="image_off">
+						<a href="dtdd" class="image_off">
 							<figure class="bginfo">
 							<h3>OPPO R7 Lite</h3>
 							<strong>6.990.000₫</strong>
 							<div class="border_bottom"></div>
 							<span>Màn hình: HD, 5.0 inches</span> <span>HĐH: Android 5.1 (Lollipop)</span> <span>CPU: 8
 								nhân, RAM 2GB</span> <span>Camera: 3.0MP</span> <span>Pin: 2320mAh</span> </figure>
-						</div>
+						</a>
 					</div>
 				</li>
 				<?php } ?>
