@@ -139,34 +139,8 @@ section {
 .infocomes strong {
     display: inline;
 }
-.price_sale .buynow {
-    display: block;
-    margin-top: 15px;
-    padding: 9px 0px;
-    width: 94.37%;
-    font-size: 18px;
-    font-weight: 600;
-    color: #FFF;
-    text-transform: uppercase;
-    text-align: center;
-    border: 1px solid #D97F00;
-    border-radius: 4px;
-    background: transparent -moz-linear-gradient(center top , #F89406, #F76B1C) repeat scroll 0% 0%;
-}
-.price_sale .buynow span {
-    display: block;
-    font-size: 12px;
-    color: #FFF;
-    text-transform: none;
-    font-weight: 300;
-}
-.buynow span {
-    display: block;
-    font-size: 12px;
-    color: #FFF;
-    text-transform: none;
-    font-weight: 300;
-}
+
+
 .price_sale .buycall {
     display: block;
     margin-top: 10px;
@@ -188,6 +162,7 @@ img {
  section {
     margin-top: 30px;
 }
+
 .wrapbread {
     background: #FFF none repeat scroll 0% 0%;
     display: block;
@@ -221,22 +196,128 @@ img {
     margin-top: 20px;
 }
 .boxright {
-    /*float: right;
-    width: 91.667%;*/
+    float: left;
+    width: 91.667%;
     max-width: 1100px;
-    padding-bottom: 10px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #E5E5E5;
+    margin-left: 20px;
+    padding :20px;
+    border: 2px solid #DADADA;
+    border-radius: 14px;
 }
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+.buynow span {
+    display: block;
+    font-size: 12px;
+    color: #FFF;
+    text-transform: none;
+    font-weight: 300;
+}
+ .buynow {
+    display: block;
+    margin-top: 15px;
+    padding: 9px 0px;
+    width: 94.37%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #D97F00;
+    border-radius: 4px;
+    background: transparent -moz-linear-gradient(center top , #F89406, #F76B1C) repeat scroll 0% 0%;
+}
+.wrap-right-pd {
+    background-color: #FFF;
+    border-left: 2px solid #DADADA;
+    
+    overflow: hidden;
+    z-index: 2;
+}
+.pro-detail {
+    float: left;
+    width: 580px;
+    padding :20px;
+    /*background: #F8F8FF none repeat scroll 0% 0%;
+    background: #F6F5F5 none repeat scroll 0% 0%;*/
+}
+.rowtop h1 {
+    float: left;
+    line-height: 1.3em;
+    font-size: 26px;
+    
+    margin-top:10px;
+    font: 20px/25px Arial;
+    color: #005BAA;
+    text-transform: uppercase;
+}
+.pro-detail h1 {/**/
+    font: 20px/25px Arial;
+    color: #005BAA;
+    text-transform: uppercase;
+}
+.pro-detail strong {
+    display: block;
+    font-size: 22px;
+    color: #D0021B;
+    margin-bottom: 6px;
+}
+.pro-detail .p-model {
+    font: 12px/27px Arial;
+}
+.pro-detail .p-model h3 {
+    float: left;
+    font: 12px/27px Arial;
+}
+.pro-detail .p-model span {
+    margin: 0px 0px 0px 7px;
+}
+.border-line {
+    background-color: #B7B7B7;
+    width: 100%;
+    clear: both;
+    height: 1px;
+}
+.pro-detail .p-spec {
+    color: #555;
+    font: 13px/21px Arial;
+    margin: 7px 0px;
+    max-height: 250px;
+    overflow: hidden;
+    width: 100%;
+}
+.p-program li {
+    display: block;
+    overflow: hidden;
+    padding: 5px 0px 0px 20px;
+    font-size: 13px;
+    color: #545454;
+}
+.p-program li a {
+    color: #288AD6;
+}
+/*small image*/
+ul.p-select-color li {
+    position: relative;
+    float: left;
+    margin: 2px;
+    width: 56px;
+    font: 12px/50px Arial;
+}
+ ul.p-select-color li a.active {
+    
+    width: 54px;
+    height: 48px;
+}
+
+ ul.p-select-color li a {
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #B7B7B7;
+}
+
+
+
   .cd-top.cd-is-visible {
   /* the button becomes visible */
   visibility: visible;

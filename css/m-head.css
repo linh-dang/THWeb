@@ -142,6 +142,17 @@ nav a {
     width: 22px;
     height: 24px;
 }
+.icon-user{
+    display: block;
+    margin: 3px auto 3px;
+    width: 22px;
+    height: 24px;
+    
+}
+.login{
+	position : relative;
+    z-index: 999;
+}
 a.back-to-top {
 	display: none;
 	width: 60px;
@@ -157,5 +168,86 @@ a.back-to-top {
 	border-radius: 30px;
 	outline:none;
 }
+/************************log in******************************/
+#container {
+    width: 656px;
+    margin: 70px auto 0px;
+    color: #4F4F4F;
 
+}
+.popup-title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 200;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px;
+    text-align: center;
+}
+#container .left {
+    border-right: 1px solid #EEE;
+}
+#container .left, #container .right {
+    width: 282px;
+    padding: 0px 20px 30px;
+    min-height: 165px;
+}
+#loginStep2, #signupStep2, #signupStep3, #signupStep4, #signupStep5, #signupStepCaptcha, #signupDesktopPromo, #emailSignup, #socialSignup, #emailLogin, .spinner, .step0, .socialInProgress, .socialLoginError, .generalError {
+    transition: opacity 0.2s linear 0s, height 0s linear 0.2s, visibility 0s linear 0.2s;
+}
+.left {
+    float: left;
+    display:block;
+}
+.ieLabel {
+    display: none;
+    color: #000;
+    font-size: 12px;
+}
+#container .left input, #container .right input {
+    width: 235px;
+}
+#container input, #container button {
+    display: block;
+    margin-bottom: 19px;
+}
+#container input[type="text"], input[type="password"], input[type="email"] {
+    outline: medium none;
+    padding: 0px 8px;
+    height: 35px;
+    line-height: 30px;
+    color: #555;
+    font-size: 13px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #F0F0F0;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    background-clip: padding-box;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05) inset;
+}
+#login_remember_wrap {
+    float: left;
+    width: 140px;
+    font-size: 9px;
+    margin-top: -5px;
+}
+#container input, #container button {
+    display: block;
+    margin-bottom: 10px;
+}
+#login_remember {
+    float: left;
+    width: auto !important;
+    margin-left: 1px;
+}
+#container .left button, #container .right button {
+    float: none;
+    display: block;
+    margin: 0px;
+   
+}
+.right {
+    float: right;
+}
 
