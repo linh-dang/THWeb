@@ -56,19 +56,19 @@ a {
 	clear:both;
 }
 /************* SACH THEO THE LOAI *************/
-/*a:link{
+a:link{
 		text-decoration:none;
-				color:#05b2e9;
+				
 			}
-			a:visited {
-				color: #05b2e9;
+	a:visited {
+				text-decoration:none;
 			}
-			a:hover {
-				color: #3C3;
+	a:hover {
+				text-decoration:none;
 			}
-			a:active {			
-				color: #F00;
-			}*/
+a:active {			
+				text-decoration:none;
+			}
 
 .left_menu_content2 a:link, .left_menu_content2 a:visited {
 	color:#666;
