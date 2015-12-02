@@ -1,0 +1,170 @@
+
+.container{
+width: 95%;
+/*min-height: auto !important;*/
+min-width: 660px;
+max-width: 1000px;
+border-left: 2px solid black;
+border-right: 2px solid black;
+background: #FEFEFE;
+padding-bottom: 30px;
+padding-left: 15px 5%;
+padding-right: 15px 5%;
+margin-right: auto;
+margin-left: auto;
+}
+
+/***********/
+
+
+.section{
+max-width: 1200px;
+width: 100%;
+min-width: 980px;
+margin: 25px auto 0px;
+}
+
+
+.fl_left {
+    float: right;
+    width: 30%;
+}
+.p-cart-info h4 {
+    background: #E7E7E9 none repeat scroll 0% 0%;
+    padding-left: 15px;
+    color: #222;
+    font: bold 15px/32px Arial;
+    border-radius: 4px;
+    height: 32px;
+    text-transform: uppercase;
+}
+.p-cart-info table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px auto 14px;
+}
+.p-cart-info table.p-cart-customer tr td {
+    padding: 3px 5px;
+    text-align: left;
+    font: 12px/24px Arial;
+}
+.p-cart-info table.p-cart-customer tr td input[type="text"] {
+    width: 100%;
+    padding: 3px 12px;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+}
+.p-cart-info table.p-cart-customer tr td textarea:focus {
+    border-color: #66AFE9;
+    outline: 0px none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(102, 175, 233, 0.6);
+}
+.p-cart-info table.p-cart-customer tr td textarea {
+    width: 94%;
+    padding: 4px 3%;
+    height: 100px;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+}
+.fl_right {
+    float: left;
+    width: 65%;
+}
+.scroll_cartorder {
+    max-height: 247px;
+    margin-top: 10px;
+    overflow: auto;
+}
+.p-cart-info table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px auto 14px;
+}
+.p-cart-info table.p-cart-order tr, .p-cart-info table.p-cart-order tr th, .p-cart-info table.p-cart-order tr td {
+    padding: 8px 10px;
+    border: 1px solid #DDD;
+}
+.p-cart-info table.p-cart-order tr td a {
+    color: #222;
+    font-size: 13px;
+}
+.p-cart-info table.p-cart-order tr td p.price1 {
+    color: #F00;
+    display: block;
+    font: bold 12px/24px Arial;
+    text-align: center;
+}
+.p-cart-info table.p-cart-order tr td p.price3 {
+    color: #F00;
+    display: block;
+    font: bold 14px/24px Arial;
+    text-align: center;
+}
+p-cart-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto 14px;
+}
+.p-cart-info.fl_right table.p-cart-order tr, .p-cart-info.fl_right table.p-cart-order tr th, .p-cart-info.fl_right table.p-cart-order tr td {
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-color: -moz-use-text-color -moz-use-text-color #DDD;
+    border-width: medium medium 1px;
+    border-style: none none solid;
+}
+.p-cart-info ul.method-pay {
+    margin: 9px 0px 15px;
+    overflow: hidden;
+    float: left;
+    width: 66%;
+}
+.p-cart-info ul.method-pay li input {
+    float: left;
+    margin: 1px 7px 0px 0px;
+}
+.p-cart-process {
+    display: block;
+    float: right;
+    width: 30%;
+    position: relative;
+    margin: 7px 0px 14px;
+    text-align: center;
+}
+.p-cart-info ul.method-pay {
+    margin: 9px 0px 15px;
+    overflow: hidden;
+    float: left;
+    width: 66%;
+}
+.p-cart-info ul.method-pay li {
+    float: left;
+    width: 99%;
+    margin: 4px 0px;
+    font: 12px/17px Arial;
+}
+.p-cart-info ul.method-pay li input {
+    float: left;
+    margin: 1px 7px 0px 0px;
+}
+.p-cart-process #btnOrder {
+    background-color: #F5A623;
+    padding: 16px 0px;
+    width: 100%;
+    color: #FFF;
+    margin: 0px;
+    border: medium none;
+    text-transform: uppercase;
+    font: bold 22px/31px Arial;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.p-cart-info table.p-cart-order tr td img {
+    max-width: 130px;
+    max-height: 86px;
+}

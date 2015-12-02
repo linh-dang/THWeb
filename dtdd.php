@@ -11,6 +11,7 @@
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="js/include.js"></script>
+
 <link rel="stylesheet" type="text/css"
 	href="css/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/content.css">
@@ -98,14 +99,16 @@
 							phí toàn miền Bắc đến 200km. Chi tiết xem <span>tại đây</span>.</li>
 					</ul>
 					<div class="clr"></div>
-					<a href="/dtdd/oppo-neo-7/dat-hang" class="buynow">Mua ngay<span>Giao
+					<a href="dat-hang" class="buynow">Mua ngay<span>Giao
 							tận nơi hoặc nhận ở cửa hàng</span></a>
 					<div class="clr"></div>
 				</div>
 			</div>
 			<div class="clr"></div>
 		</div>
+		
 		</section>
+		
 	</div>
 </body>
 </html>

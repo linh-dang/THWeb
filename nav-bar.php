@@ -57,7 +57,8 @@ session_start ();
 													for="login_remember">Keep me logged in</label>
 											
 											</div>
-											<button type="submit" class="buynow" onclick="">Đăng nhập</button>
+											<div class="clr"></div>
+											<button type="submit" class="btn__" onclick="">Đăng nhập</button>
 								
 								</form>
 							</div>
