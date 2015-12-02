@@ -92,9 +92,10 @@
 							<h3>OPPO R7 Lite</h3>
 							<strong class="orange">6.990.000₫</strong>
 							<div class="clr"></div>
-							<label>Hơn 1.300 lượt mua tuần qua</label>
+							
 						</a>
-						<button href="#" type="button">Mua ngay</button>
+						<button onclick="window.location.href='dtdd'">Mua ngay</button>
+						<label>Hơn 1.300 lượt mua tuần qua</label>
 						<a href="dtdd" class="image_off">
 							<figure class="bginfo">
 							<h3>OPPO R7 Lite</h3>

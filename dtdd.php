@@ -97,6 +97,8 @@
 						</li>
 						<li><i class="icondetail-check"></i> Chính sách vận chuyển miễn
 							phí toàn miền Bắc đến 200km. Chi tiết xem <span>tại đây</span>.</li>
+						<li><i class="icondetail-check"></i>Cam kết giá rẻ, khuyến mãi không ngừng
+						</li>
 					</ul>
 					<div class="clr"></div>
 					<a href="dat-hang" class="buynow">Mua ngay<span>Giao

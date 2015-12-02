@@ -206,6 +206,10 @@ color: #fff;
     font-size: 16px;
     color: #ED5564;
 }
+.homeproduct .bginfo label{
+	display: block;
+	position: absolute;
+}
 .moreproduct {
     display: block;
     overflow: hidden;

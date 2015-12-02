@@ -58,7 +58,7 @@ session_start ();
 											
 											</div>
 											<div class="clr"></div>
-											<button type="submit" class="btn__" onclick="">Đăng nhập</button>
+											<button type="submit" class="btn__" onclick=""><span>Đăng nhập</span></button>
 								
 								</form>
 							</div>

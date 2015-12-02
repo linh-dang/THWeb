@@ -88,7 +88,7 @@ margin: 25px auto 0px;
 }
 .p-cart-info table.p-cart-order tr td a {
     color: #222;
-    font-size: 13px;
+    font-size: 12px;
 }
 .p-cart-info table.p-cart-order tr td p.price1 {
     color: #F00;
@@ -167,4 +167,11 @@ p-cart-info table {
 .p-cart-info table.p-cart-order tr td img {
     max-width: 130px;
     max-height: 86px;
+}
+.quantity-input{
+width: 33px !important;
+text-align: center;
+margin: 0px;
+height: 27px;
+vertical-align: text-bottom !important;
 }
