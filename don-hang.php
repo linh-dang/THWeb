@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Vũ trụ di động</title>
+<title>Vũ trụ di động| Đơn hàng</title>
 <!--link rel="stylesheet" type="text/css" href="css/content.css"/>
 <link rel="stylesheet" type="text/css" href="css/1.css" /-->
 <script
@@ -33,13 +33,13 @@
 					</h4>
 					<table class="p-cart-order">
 						<tbody>
-							<tr>
-								<th style="width: 14%;">Đơn hàng</th>
-								<th >Ngày mua</th>
-								<th style="width: 18%;">Người nhận</th>
-								<th style="width: 18%;">Tổng tiền</th>
-								<th style="width: 18%;">Trạng thái</th>
-								<th></th>
+							<tr class="first last">
+										<th>Tên sản phẩm</th>
+										<th style="width: 9%;">Sách #</th>
+										<th style="width: 10%;">Giá</th>
+										<th style="width: 17%;">Số lượng</th>
+										<th style="width: 10%;">Giảm giá</th>
+										<th style="width: 10%;">Tổng cộng</th>
 							</tr>
 							<tr>
 								<td><a title="Xem đơn hàng" href="#">1543</a></td>
