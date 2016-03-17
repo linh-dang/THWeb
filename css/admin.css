@@ -1,0 +1,28 @@
+.search-customer .c-id {
+    width: 240px;
+    float: left;
+}
+.form-text {
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    vertical-align: middle;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+}
+.search-customer input, .search-customer button {
+    margin: 5px 10px;
+}
+.search-customer .c-name {
+    width: 320px;
+    float: left;
+    margin-left: 20px;
+}
+.search-customer .b-search--button {
+    float: right;
+    margin-right: 5px;
+}

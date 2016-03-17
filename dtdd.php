@@ -1,3 +1,16 @@
+<?php
+	session_start();
+	$ID=$_GET['id'];
+	if(!$ID) header('location:main-p.php');
+						$conn=mysqli_connect("localhost","root","","didong");
+						if (mysqli_connect_errno())
+							{
+								echo "Failed to connect to MySQL: " . mysqli_connect_error();
+							}
+						mysqli_set_charset($conn,"utf8");
+						
+	?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -10,6 +23,7 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 <script src="js/include.js"></script>
 
 <link rel="stylesheet" type="text/css"
@@ -19,24 +33,44 @@
 
 </head>
 <body>
-	<a href="#" class="back-to-top">Back to Top</a>
+	 <a href="#" class="back-to-top">Back to Top</a>
 	<div class="container">
-		<div id="header"></div>
+		<div id="header"></div> 
 		<!--------- HEADER----------------->
 		<div class="wrapbread">
 			<div class="rowtop">
 				<div class="clr"></div>
-				<h1>Điện thoại Samsung Galaxy J5 J500 White</h1>
+				<?php $sql="SELECT * FROM sanpham,image WHERE sanpham.id_sanpham = image.id_sanpham AND sanpham.id_sanpham = $ID";
+						$query=mysqli_query($conn,$sql);
+						if($query==false)
+						{die(mysqli_error($conn));
+						}
+						mysqli_close($conn);
+						while ($data = mysqli_fetch_assoc($query) )
+						{
+							$img=$data['image'];
+							$title=$data['tensp'];
+						//$ID=//$data['id_sanpham'];
+						$author=$data['hang'];
+						$price=$data['price'];
+						$thongso=$data['thongso'];
+						$sale_off=$data['sale_off'];
+						?>
+				
+				<h1><?php echo $title; ?></h1>
 				<span>Hơn 3.800 lượt mua tuần qua</span>
 				<div class="clr"></div>
 			</div>
 		</div>
 		<section class="">
 		<div class="boxright">
-			<aside class="picture "> <img alt="Samsung Galaxy S6 Edge Plus"
-				src="images/samsung-galaxy-s6-edge-plus-400x533.png" height="533"
+			<aside class="picture "> 
+			
+			<img alt="Samsung Galaxy S6 Edge Plus"
+				src="images/<?php echo $img; ?>" height="533"
 				width="300">
 				<ul class="ls p-select-color">
+				
 					<li><a class="active" href="javascript:;" data-toggle="modal" data-target="#image-modal"
 						title=" Điện thoại Samsung Galaxy J5 J500 White"> <img
 							src="http://img.mediamart.vn/Product/tiny_27077_17913_dien-thoai-samsung-galaxy-j5.jpg"
@@ -66,22 +100,23 @@
 				</ul></aside>
 			<div class="wrap-right-pd">
 				<div class="pro-detail">
-					<div class="p-model">
-						<strong>3.990.000₫ </strong>
-						<span>Mã hàng: 506462</span>
-						|
+				
+					<div class="p-model">	
+						<strong><?php echo $title;?> </strong>
+						<strong><?php echo number_format($price);?> </strong>
+						<span><?php echo "Ma hang :"; echo $ID; ?></span>
 						<span style="color: #ff8a00; font: bold 12px/27px Arial;">Còn hàng</span>
 					</div>
 					<div class="border-line"></div>
 					<div class="p-spec" itemprop="description">
 						<p>
-							- Bộ xử lý: 4 nhân 1.2GHz, Qualcomm MSM8916 Snapdragon 410<br> -
+						- Bộ xử lý: 4 nhân 1.2GHz, Qualcomm MSM8916 Snapdragon 410<br> -
+								Màn hình: 5.0 inch, HD 720 x 1280 pixels<br> - Bộ nhớ: 8GB, RAM:
 								Màn hình: 5.0 inch, HD 720 x 1280 pixels<br> - Bộ nhớ: 8GB, RAM:
 									1,5GB<br> - Thẻ nhớ ngoài lên đến 64GB<br> - Camera chính:
 											13MP, 1080p @30fps/ Camera phụ: 5MP<br> - Dual-Sim, 4G LTE,
 												Wifi, bluetooth, GPS<br> - Hệ điều hành: Android 5.1
 													Lollipop<br> - Pin: 2600mAh 
-						
 						</p>
 						<div class="clr"></div>
 					</div>
@@ -97,16 +132,18 @@
 						</li>
 						<li><i class="icondetail-check"></i> Chính sách vận chuyển miễn
 							phí toàn miền Bắc đến 200km. Chi tiết xem <span>tại đây</span>.</li>
-						<li><i class="icondetail-check"></i>Cam kết giá rẻ, khuyến mãi không ngừng
-						</li>
 					</ul>
 					<div class="clr"></div>
-					<a href="dat-hang" class="buynow">Mua ngay<span>Giao
+					<a href="addcart?item=<?php echo $ID;?>" class="buynow">Mua ngay<span>Giao
 							tận nơi hoặc nhận ở cửa hàng</span></a>
 					<div class="clr"></div>
 				</div>
 			</div>
 			<div class="clr"></div>
+						
+						<?php
+						}
+						?>
 		</div>
 		
 		</section>
